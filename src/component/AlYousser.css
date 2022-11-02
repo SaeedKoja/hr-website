@@ -1,0 +1,45 @@
+.AlYousser img{
+    width: 15%;
+}
+.AlYousser .container{
+    direction: rtl;
+    width: 95%;
+    margin: 0 auto;
+}.AlYousser .container .headline h4{
+    font-size: 40px;
+    color: var(--p-color);
+}
+.AlYousser .container .General-information .boxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(32%, 1fr));
+    gap:2%;
+}
+.AlYousser .container .Certificates .Certificates-boxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(48%, 1fr));
+    gap:2%;
+}
+.AlYousser .container .Languages .Languages-boxs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(48%, 1fr));
+    gap:4%;
+}
+.AlYousser .container .Computer-Skills .box-Skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(500px, 1fr));
+    gap:30px;
+}
+.AlYousser .container .Computer-Skills .box-Skills .box-program {
+    display: flex;
+    flex-direction: column;
+}
+.AlYousser.container .boxs-Experiences{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(48%, 1fr));
+    gap:4%;
+}
+.AlYousser .container .Experiences .boxs-Experiences{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(48%, 1fr));
+    gap:4%;
+}
